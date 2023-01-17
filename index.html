@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>IP Calculator</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">IP Calculator</h1>
+    </header>
+    <main>
+        <div class="row">
+            <input id="input-part-0" value="10">
+            <label>.</label>
+            <input id="input-part-1" value="10">
+            <label>.</label>
+            <input id="input-part-2" value="3">
+            <label>.</label>
+            <input id="input-part-3" value="1">
+            <label>\</label>
+            <input id="input-mask-number" value="8">
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <label class="title">Маска мережі: </label>
+                <label class="data" id="mask">255.255.255.255</label>
+            </div>
+            <div class="col-2">
+                <label class="title">Маска мережі в двійковій формі: </label>
+                <label class="data" id="binary-mask">255.255.255.255</label>
+            </div>
+            <div class="col-2">
+                <label class="title">Адреса мережі: </label>
+                <label class="data" id="network-address">255.255.255.255</label>
+            </div>
+            <div class="col-2">
+                <label class="title">Кільксть вузлів: </label>
+                <label class="data" id="max-node-number">0</label>
+            </div>
+            <div class="col-2">
+                <label class="title">Номер вузла: </label>
+                <label class="data" id="node-number">0</label>
+            </div>
+        </div>
+    </main>
+    <footer>
+        Created by <a href="https://vodacode.space/">VoDACode</a>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
