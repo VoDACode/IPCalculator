@@ -9,4 +9,4 @@ This is a simple IP calculator written in JS. It can calculate the following:
 
 ![Main page](/docs/imgs/main-page.png)
 
-💻You can use it [here](https://ip-calculator.vodacode.space/).
+💻You can use it [here](http://ip-calculator.vodacode.space/).
